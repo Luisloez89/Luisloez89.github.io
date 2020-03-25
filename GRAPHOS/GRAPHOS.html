@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GRAPHOS - inteGRAted PHOtogrammetric Suite</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/lightbox.css" />
+
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>GRAPHOS</h2>
+							<p>inteGRAted PHOtogrammetric Suite</p>
+							<p>GRAPHOS es una herramienta orientada a acercar a todos los públicos las más novedosas técnicas fotogramétricas y de visión computacional de reconstrucción 3D a partir de imágenes 2D.
+							 La herramienta ofrece una interface sencilla e intuitiva capaz de eliminar las barreras encontradas en otras herramientas que requieren una alta especialización de sus usuarios.</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="images/Fulls/preprocessingIgl.png" class="image" data-lightbox="image-1" data-title="Preprocesado"><img src="images/Thumbs/preprocessingIgl.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Preprocesado de imágenes</h2>
+										<p>La herramienta incluye algoritmos de preprocesado de imágenes. Se establecen dos acercamientos completamente distintos. Para imágenes con alta calidad textural se ofrece un algoritmo de decolorización
+										que garantiza la conservación de los niveles de contraste entre pixeles. Para casos de baja calidad textural la herramienta implementa el filtro de "Wallis" capaz de realzar y mejorar la textura de las imágenes.</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="images/Fulls/tiepointsIgl.png" class="image" data-lightbox="image-1" data-title="Puntos característicos"><img src="images/Thumbs/tiepointsIgl.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Extracción de puntos característicos</h2>
+										<p>La herramienta implementa diferentes algoritmos de extracción de puntos característicos. Para casos de imágenes donde la convergencia de sus ejes ópticos es casi nula, la implementación de Tapioca del conocido algoritmo SIFT (Scale-Invariant Feature Transform) es la solución
+										más eficaz y eficiente. Para casos de fotográmetría convergente, se implementa una variante del algoritmo SIFT robusto frente a transformaciones afines entre imágenes (Affine Scale-Invariant Feature Transform). Se dispone además de una implementación del novedoso algoritmo MSD (Maximal Self-Dissimilarities)
+									capaz de lidiar no solo con imágenes RGB sino que es eficaz con imagenes de distintos rangos espectrales.</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="images/Fulls/orientationIgl.png" class="image" data-lightbox="image-1" data-title="Orientación"><img src="images/Thumbs/orientationIgl.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Orientación</h2>
+										<p>GRAPOS implementa una estrategia de aerotriangulación capaz de resolver no solo la orientación relativa de cada imagen en el espacio, sino que además, es capaz de realizar una autocalibración de la cámara utilizada según diferentes modelos de distorsión optimizando los resultados para asegurar un proceso de densificación satisfactorio.</p>
+									</div>
+								</div>
+							</section>
+
+							<!-- Four -->
+							<section id="four" class="wrapper alt spotlight style4">
+								<div class="inner">
+									<a href="images/Fulls/denseIgl.png" class="image" data-lightbox="image-1" data-title="Densificación"><img src="images/Thumbs/denseIgl.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Densificación</h2>
+										<p>GRAPHOS incluye diferentes estrategias de densificación capaces de resolver los diferentes escenarios que nos podemos encontrar. Como resultado obtendremos un modelo 3D cuya densidad es capaz de igualar el número total de píxeles de las imágenes que intervienen en el proceso.</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Five -->
+							<section id="five" class="wrapper style1">
+								<div class="inner">
+									<h2 class="major">Galería</h2>
+									<!-- <p>content</p> -->
+									<section class="features">
+										<article>
+											<iframe class="viewer3d" src="https://sketchfab.com/models/166756e97c3e4623a20b2c8cdfe17288/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+											<h3 class="major">Fotogrametría arquitectónica desde UAV</h3>
+											<p>Reconstrucción de elementos arquitectónicos mediante tomas de imágenes obtenidas con vehículos aéreos no tripulados (Drones).</p>
+											<a href="/Potree/models/iglesia.html" class="button">Ver modelo de alta resolución</a>
+										</article>
+										<article>
+											<iframe class="viewer3d" src="https://sketchfab.com/models/96e6cd3f76154305b856956e50c9ddbd/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+											<h3 class="major">Macrofotogrametría de precisión</h3>
+											<p>Reconstrucción de elementos de tamaño reducido con precisión micrométrica mediante imágenes obtenidas utilizando objetivos macro. </p>
+											<a href="/Potree/models/owl.html" class="button">Ver modelo de alta resolución</a>
+										</article>
+										<article>
+											<iframe class="viewer3d" src="https://sketchfab.com/models/feb16c33cebd4d8ea8078f2967eb9662/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+											<h3 class="major">Fotogrametría terrestre de rango cercano</h3>
+											<p>Reconstrucción de elementos mediante fotogrametría terrestre.</p>
+										</article>
+										<article>
+											<iframe class="viewer3d" src="https://sketchfab.com/models/12f7bdbb26034e4d86a019ae2cff26b9/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+											<h3 class="major">Fotogrametría aérea convencional</h3>
+											<p>Reconstrucción de grandes superficies mediante imágenes tomadas a vista de pájaro desde plataformas tripuladas o no tripuladas.</p>
+											<a href="/Potree/models/AerialISPRS.html" class="button">Ver modelo de alta resolución</a>
+										</article>
+									</section>
+								</div>
+							</section>
+
+					</section>
+
+					<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+									<div class="content">
+										<h2 class="major">Descarga</h2>
+										<p>Aún no disponible</p>
+									</div>
+								</div>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!-- <script src="assets/js/modalImage.js"></script> -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/lightbox.js"></script>
+
+	</body>
+</html>
